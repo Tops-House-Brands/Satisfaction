@@ -6,7 +6,10 @@
   <base target="_top">
   <title>Satisfaction</title>
   <script>
-    iframe.src = `https://script.google.com/macros/s/AKfycbws_DnnJVI3gj-VxXng6yh0UsCPSEZae3L5rtiD0Uesz0Hzv1JVTeKH1yq0tOxEsDPWqg/exec`;
+    document.addEventListener("DOMContentLoaded", () => {
+      const iframe = document.getElementById("myIframe");
+      iframe.src = "https://script.google.com/macros/s/AKfycbws_DnnJVI3gj-VxXng6yh0UsCPSEZae3L5rtiD0Uesz0Hzv1JVTeKH1yq0tOxEsDPWqg/exec";
+    });
   </script>
 </head>
 <body>
